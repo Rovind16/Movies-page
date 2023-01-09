@@ -1,0 +1,132 @@
+p{
+align-content: center;
+}
+.main{
+    color: rgb(170, 251, 10);
+}
+ul{
+    list-style: none;
+}
+a{
+    text-decoration: none;
+}
+nav{
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    width: 100%;
+    border: 1px solid rgba(117, 21, 21, 0.04);
+   background-color: rgba(222, 224, 157, 0.937);
+}
+nav .menu{
+    display: flex;
+    color: black;
+}
+nav .menu li a{
+    height: 40px;
+    line-height: 43px;
+    margin: 0px;
+    padding: 0px 22px;
+    display: flex;
+    font-size: 0.8rem;
+    text-transform: uppercase;
+}
+.latest-box{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    box-shadow: 2px 2px 30px rgba(0, 0,0, 0.2);
+    border-radius: 10px;
+    overflow: hidden;
+    width: 200px;
+}
+.latest-b-img{
+    width: 100%;
+    height: 270px;
+}
+.latest-b-img img{
+    width: 100%;
+    height: 100%;
+}
+.row{
+    display: flex;
+   justify-content: space-around;
+}
+h1 {
+    font-family: "Lucida Console", "Courier New", monospace;
+    justify-content: space-between;
+  }
+.row1{
+    display: flex;
+    justify-content: space-around;
+}
+button{
+    color:  rgba(222, 224, 157, 0.937);
+}
+footer {
+    display: block;
+    background-color:  rgba(222, 224, 157, 0.937);
+  }
+.dropbtn {
+    background-color:  rgba(222, 224, 157, 0.937);
+    color: white;
+    padding: 16px;
+    font-size: 16px;
+    border: none;
+  }
+  
+  /* The container <div> - needed to position the dropdown content */
+  .dropdown {
+    position: relative;
+    display: inline-block;
+  }
+  
+  /* Dropdown Content (Hidden by Default) */
+  .dropdown-content {
+    display: none;
+    position: absolute;
+    background-color: #f1f1f1;
+    min-width: 160px;
+    box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
+    z-index: 1;
+  }
+  
+  /* Links inside the dropdown */
+  .dropdown-content a {
+    color: black;
+    padding: 12px 16px;
+    text-decoration: none;
+    display: block;
+  }
+  .hello{
+    background-color: rgba(222, 224, 157, 0.937);
+  }
+  
+  /* Change color of dropdown links on hover */
+  .dropdown-content a:hover {background-color: #ddd;}
+  
+  /* Show the dropdown menu on hover */
+  .dropdown:hover .dropdown-content {display: block;}
+  
+  /* Change the background color of the dropdown button when the dropdown content is shown */
+  .dropdown:hover .dropbtn {background-color: #3e8e41;}
+  .sec{
+   display: flex;
+   justify-content: space-between;
+   }
+  .searchs{
+    float:right;
+    margin:30px;
+    background-color: rgba(222, 224, 157, 0.937);
+}
+     
+.search button{
+    background-color:  rgba(222, 224, 157, 0.937);
+    color: #f2f2f2;
+    float: right;
+    padding: 5px 10px;
+    margin-right: 16px;
+    font-size: 12px;
+    border: none;
+    cursor: pointer;
+}

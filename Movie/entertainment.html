@@ -1,0 +1,247 @@
+<!DOCTYPE html>
+<html lang="en">
+    <link rel="stylesheet" href="entertainment.css">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Movies</title>
+</head>
+<body>
+    <nav>
+    <img src="movie1.jpg" alt="error" width="100" height="100">
+   <ul class="menu">
+    <li><a href="entertainment.html"> Home</a></li>
+    <li><a href="Scifi.html"> Scifi</a></li>
+    <li><a href="#"> Comedy</a></li>
+    <li><a href="#"> Tv shows</a></li>
+   </ul>
+</div>
+</div>
+</nav>
+<p>═════════════════════════════════════════════════════════════════════════════════════════════════════════════════════════════════════</p>
+<div class="hello">
+<div class="sec">
+<div class="dropdown">
+    <button class="dropbtn">Genre ↓</button>
+    <div class="dropdown-content">
+      <a href="entertainment.html">home</a>
+      <a href="scifi.html">Sc-fi</a>
+      <a href="#">comdey</a>
+    </div>
+  </div>
+  
+  <div class="maja">
+
+  <h1>365 Days Movies</h1>
+</div>  
+  <div class="searchs">
+        <input type="text"
+            placeholder=" Search Movies" id="search"
+            name="search">
+        <input type="submit" id="button" onclick="hi()"/>
+</div>
+
+</div>
+</div>
+
+<ul id="autoWidth" class="cs-hidden">
+    <div class="cards">
+    <div class="row" id="product-list">
+    <li class="item-a">
+        <div class="latest-box">
+            <div class="latest-b-img">
+                <img src="m1.jpg">
+            </div>
+            <div class="latest-b-text">
+               <strong>Intension</strong>
+               <p>Sci-fi</p>
+            </div>
+        </div>
+    </li>
+    <li class="item-a">
+        <div class="latest-box">
+            <div class="latest-b-img">
+                <img src="m2.jpg">
+            </div>
+            <div class="latest-b-text">
+               <strong>Joker</strong>
+               <p>Comedy</p>
+            </div>
+        </div>
+
+    </li>
+    <li class="item-a">
+        <div class="latest-box">
+            <div class="latest-b-img">
+                <img src="m3.jpg">
+            </div>
+            <div class="latest-b-text">
+               <strong>Avengers</strong>
+               <p>Sc-fi</p>
+            </div>
+        </div>
+
+    </li>
+    <li class="item-a">
+        <div class="latest-box">
+            <div class="latest-b-img">
+                <img src="m4.jpg">
+            </div>
+            <div class="latest-b-text">
+               <strong>Alien</strong>
+               <p>Tv show</p>
+            </div>
+        </div>
+
+    </li>
+    <li class="item-a">
+        <div class="latest-box">
+            <div class="latest-b-img">
+                <img src="m5.jpg">
+            </div>
+            <div class="latest-b-text">
+               <strong>Jurasic world</strong>
+               <p>Sci-fi</p>
+            </div>
+        </div>
+
+    </li>
+    <li class="item-a">
+        <div class="latest-box">
+            <div class="latest-b-img">
+                <img src="m8.jpg">
+            </div>
+            <div class="latest-b-text">
+               <strong>Lord of Ring</strong>
+               <p>Fantasy</p>
+            </div>
+        </div>
+    </div>
+    </ul>
+    <ul id="autoWidth" class="cs-hidden">
+        <div class="row1">
+            <li class="item-a">
+                <div class="latest-box">
+                    <div class="latest-b-img">
+                        <img src="m7.jpg">
+                    </div>
+                    <div class="latest-b-text">
+                       <strong>Star Wars</strong>
+                       <p>Sci-fi</p>
+                    </div>
+                </div>
+            </li>
+            <li class="item-a">
+                <div class="latest-box">
+                    <div class="latest-b-img">
+                        <img src="m10.jpg">
+                    </div>
+                    <div class="latest-b-text">
+                       <strong>Fall</strong>
+                       <p>Horror</p>
+                    </div>
+                </div>
+            </li>
+            <li class="item-a">
+                <div class="latest-box">
+                    <div class="latest-b-img">
+                        <img src="m11.jpg">
+                    </div>
+                    <div class="latest-b-text">
+                       <strong>Beast</strong>
+                       <p>Tv show</p>
+                    </div>
+                </div>
+            </li>
+            <li class="item-a">
+                <div class="latest-box">
+                    <div class="latest-b-img">
+                        <img src="m12.jpg">
+                    </div>
+                    <div class="latest-b-text">
+                       <strong>The Menu</strong>
+                       <p>Fantasy</p>
+                    </div>
+                </div>
+            </li>
+            <li class="item-a">
+                <div class="latest-box">
+                    <div class="latest-b-img">
+                        <img src="m13.jpg">
+                    </div>
+                    <div class="latest-b-text">
+                       <strong>pinocchio</strong>
+                       <p>Tv show</p>
+                    </div>
+                </div>
+            </li>
+            <li class="item-a">
+                <div class="latest-box">
+                    <div class="latest-b-img">
+                        <img src="m14.jpg">
+                    </div>
+                    <div class="latest-b-text">
+                       <strong>Cocodile</strong>
+                       <p>Comedy</p>
+                    </div>
+                </div>
+            </li>
+
+    </ul>
+</div>
+<script>
+    function hi(){
+          var s = document.getElementById("search").value;
+          var f = 0;
+          if(s != ""){
+          var a = document.getElementsByClassName("item-a")
+              for(var i=0;i<a.length;i++){
+                  a[i].style.display='none';
+              }
+              for(var i=0;i<a.length;i++){
+                  var s1 = a[i].childNodes[1].childNodes[3].childNodes[3].innerHTML
+                  if(s == s1){
+                      a[i].style.display = "list-item";
+                      f=1;
+                  }
+              }
+          }
+  
+          if(f==0){
+              var a = document.getElementsByClassName("item-a")
+              for(var i=0;i<a.length;i++){
+                  a[i].style.display = "list-item";
+              }
+              window.alert("Sorry there is no movie which you are looking for!");
+          }
+      }
+  
+  </script>
+   
+
+</body>
+<br>
+<br>
+<br>
+<br>
+<br>
+<br>
+<br>
+<br>
+<br>
+<br>
+<br>
+<br>
+<br>
+<br>
+<br>
+<br>
+<br>
+<br>
+
+<footer>
+    <p>365     Powered by 365 Entertainment Portal 2019. All Rights Reserved</p>
+    <p> <a href="#">365movies.com</a></p>
+  </footer>
+</html>
